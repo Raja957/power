@@ -23,4 +23,4 @@
 # SOFTWARE.
 
 New-WebBinding -Name "Default Web Site" -Protocol https -Port 443
-Get-ChildItem cert:\localmachine\PersonalStore | New-Item -Path IIS:\SslBindings\!443
+Get-ChildItem cert:\localmachine\Personal | New-Item -Path IIS:\SslBindings\!443
